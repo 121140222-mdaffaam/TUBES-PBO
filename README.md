@@ -1,4 +1,4 @@
-🔖 Kontributor Pengembangan Aplikasi
+# 🔖 Kontributor Pengembangan Aplikasi
 - Dimas Faturrohim	121140224
 - Anju Rodo Oldo Yosafat	121140206
 - Mohamad Meazza Aprilianda	121140216
