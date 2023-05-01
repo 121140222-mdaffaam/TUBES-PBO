@@ -9,7 +9,8 @@
 # ⭐ Judul Proyek
 _Perang Bintang_
 
-📖: Deskripsi Proyek
+
+# 📖: Deskripsi Proyek
 
 
-📖: Cara menjalankan aplikasi (cara bermain)
+# 📖: Cara menjalankan aplikasi (cara bermain)
