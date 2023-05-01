@@ -1,11 +1,3 @@
-# 🔖 Kontributor Pengembangan Aplikasi
-- Dimas Faturrohim	121140224
-- Anju Rodo Oldo Yosafat	121140206
-- Mohamad Meazza Aprilianda	121140216
-- Muhammad Daffa Abiyyu Muhana	121140222
-- Fatur Arkan Syawalfa	121140229
-- Lilis Swastika	121140233
-
 # ⭐ Judul Proyek
 _Perang Bintang_
 
@@ -14,3 +6,18 @@ _Perang Bintang_
 
 
 # 📖: Cara menjalankan aplikasi (cara bermain)
+
+
+# 📖: Dependensi paket (library) yang dibutuhkan untuk menjalankan aplikasi
+
+
+# 📖: UML Class diagram proyek
+
+
+# 🔖 Kontributor Pengembangan Aplikasi
+- Dimas Faturrohim	121140224
+- Anju Rodo Oldo Yosafat	121140206
+- Mohamad Meazza Aprilianda	121140216
+- Muhammad Daffa Abiyyu Muhana	121140222
+- Fatur Arkan Syawalfa	121140229
+- Lilis Swastika	121140233
