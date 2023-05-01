@@ -6,8 +6,8 @@
 - Fatur Arkan Syawalfa	121140229
 - Lilis Swastika	121140233
 
-⭐ Judul Proyek
-# Perang Bintang
+# ⭐ Judul Proyek
+ Perang Bintang
 
 📖: Deskripsi Proyek
 
