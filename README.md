@@ -1,20 +1,20 @@
-# ⭐ Judul Proyek
-_Perang Bintang_
+# Judul Proyek :
+Perang Bintang
 
 
-# 📖: Deskripsi Proyek
+# Deskripsi Proyek :
 
 
-# 📖: Cara menjalankan aplikasi (cara bermain)
+# Cara menjalankan aplikasi (cara bermain) :
 
 
-# 📖: Dependensi paket (library) yang dibutuhkan untuk menjalankan aplikasi
+# Dependensi paket (library) yang dibutuhkan untuk menjalankan aplikasi :
 
 
-# 📖: UML Class diagram proyek
+# UML Class diagram proyek :
 
 
-# 🔖 Kontributor Pengembangan Aplikasi
+# Kontributor Pengembangan Aplikasi :
 - Dimas Faturrohim	121140224
 - Anju Rodo Oldo Yosafat	121140206
 - Mohamad Meazza Aprilianda	121140216
