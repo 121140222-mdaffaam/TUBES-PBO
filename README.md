@@ -7,7 +7,7 @@
 - Lilis Swastika	121140233
 
 # ⭐ Judul Proyek
- Perang Bintang
+_Perang Bintang_
 
 📖: Deskripsi Proyek
 
