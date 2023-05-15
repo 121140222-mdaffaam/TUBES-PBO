@@ -93,15 +93,15 @@ class Laser(pygame.sprite.Sprite):
         self.destroy()
 
 class Alien(pygame.sprite.Sprite) :
-        def __init__(self, color, x, y):
+        def __init__(self, type, x, y):
             super().__init__()
-            file_path = color + '.jpg'
+            file_path = type + '.jpg'
             self.image = pygame.image.load(file_path).convert_alpha()
             self.image = pygame.transform.scale(self.image, (50, 50))
             self.rect = self.image.get_rect(topleft = (x,y))
 
-            if color == 'red': self.value = 100
-            elif color == 'green': self.value = 200
+            if type == 'alien_33': self.value = 100
+            elif type == 'alien_22': self.value = 200
             else: self.value = 300
 
         def update(self, direction):
@@ -171,7 +171,7 @@ class Game:
         self.lives = 2
         self.extra_lives = 3
         self.plus_lives = 0
-        self.live_surf = pygame.image.load('spaceship_1.png').convert_alpha()
+        self.live_surf = pygame.image.load('spaceship.png').convert_alpha()
         self.live_surf = pygame.transform.scale(self.live_surf, (35, 35))
         self.live_x_start_pos = screen_width - (self.live_surf.get_size()[0] * (self.lives + self.plus_lives) + 20)
         self.score = 0
@@ -191,7 +191,7 @@ class Game:
         self.extra_spawn_time = randint(600, 800)
         self.buffs = pygame.sprite.Group()
         self.last_shot_time = 0
-        self.cooldown = randint(800, 1000)
+        self.buff_drop = randint(8000, 10000)
 
         music = pygame.mixer.Sound('Monkeys Spinning Monkeys.mp3')
         music.set_volume(0.5)
@@ -221,11 +221,11 @@ class Game:
                 y = row_index * y_distance + y_offset
 
                 if row_index == 0: 
-                    alien_sprite = Alien('blue',x,y)
+                    alien_sprite = Alien('alien_1',x,y)
                 elif 1 <= row_index <= 2: 
-                    alien_sprite = Alien('green',x,y)
+                    alien_sprite = Alien('alien_22',x,y)
                 else: 
-                    alien_sprite = Alien('red',x,y)
+                    alien_sprite = Alien('alien_33',x,y)
 
                 self.aliens.add(alien_sprite)
 
@@ -257,7 +257,7 @@ class Game:
             extra_laser_sprite = Laser(extra_sprite.rect.center, 10, screen_height)
             self.extra_laser.add(extra_laser_sprite)
         current_time = pygame.time.get_ticks()
-        if current_time - self.last_shot_time >= self.cooldown:
+        if current_time - self.last_shot_time >= self.buff_drop:
             if self.extra.sprites():
                 buff = Buff(extra_sprite.rect.center)
                 self.buffs.add(buff)
@@ -283,6 +283,7 @@ class Game:
                 if aliens_hit:
                     for alien in aliens_hit:
                         self.score += alien.value
+                    laser.kill()
                     self.explosion_sound.play()
                 if pygame.sprite.spritecollide(laser, self.extra, False):
                     laser.kill()
@@ -404,7 +405,7 @@ class Game:
 
 class Background:
     def __init__ (self):
-        self.bg = pygame.image.load('103717879_p0_master1200.jpg').convert_alpha()
+        self.bg = pygame.image.load('bg_1.png').convert_alpha()
         self.bg = pygame.transform.scale(self.bg, (screen_width, screen_height))
         self.opacity = 200
 
