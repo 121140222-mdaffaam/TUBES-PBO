@@ -5,7 +5,7 @@ from random import choice, randint
 class Player(pygame.sprite.Sprite):
     def __init__(self, pos, x_constraint, y_constraint, speed):
         super().__init__()
-        self.image = pygame.image.load('spaceship_1.png').convert_alpha()
+        self.image = pygame.image.load('spaceship.png').convert_alpha()
         self.image = pygame.transform.scale(self.image, (50, 50))
         self.rect = self.image.get_rect(midbottom = pos)
         self.speed = speed
@@ -124,22 +124,6 @@ class Extra(pygame.sprite.Sprite):
     def update(self):
         self.rect.x += self.speed
 
-class Block(pygame.sprite.Sprite):
-    def __init__(self, size, color, x, y):
-        super().__init__()
-        self.image = pygame.Surface((size, size))
-        self.image.fill(color)
-        self.rect = self.image.get_rect(topleft = (x, y))
-
-shape = [
-'xx           xx',
- 'xxx       xxx',
-  'xxxxxxxxxxx',
-  'xxxxxxxxxxx',
-  'xxxx   xxxx',
-   'xxxxxxxxx',
-    'xxxxxxx']
-
 class Buff(pygame.sprite.Sprite):
     def __init__(self, pos):
         super().__init__()
@@ -171,7 +155,7 @@ class Game:
         self.lives = 2
         self.extra_lives = 3
         self.plus_lives = 0
-        self.live_surf = pygame.image.load('spaceship.png').convert_alpha()
+        self.live_surf = pygame.image.load('spaceship_1.png').convert_alpha()
         self.live_surf = pygame.transform.scale(self.live_surf, (35, 35))
         self.live_x_start_pos = screen_width - (self.live_surf.get_size()[0] * (self.lives + self.plus_lives) + 20)
         self.score = 0
