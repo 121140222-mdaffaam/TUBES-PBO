@@ -9,10 +9,10 @@ class Block(pygame.sprite.Sprite):
 
 shape = [
 'xx           xx',
-' xxx       xxx',
-'  xxxxxxxxxxx',
-'  xxxxxxxxxxx',
-'  xxxx   xxxx',
-'   xxxxxxxxx',
-'    xxxxxxx ']
+ 'xxx       xxx',
+  'xxxxxxxxxxx',
+  'xxxxxxxxxxx',
+  'xxxx   xxxx',
+   'xxxxxxxxx',
+    'xxxxxxx']
 
