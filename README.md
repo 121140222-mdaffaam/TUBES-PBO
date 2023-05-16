@@ -12,7 +12,7 @@ Perang Bintang
 
 
 # UML Class diagram proyek :
-
+![alt text](https://github.com/MDaffaAM/TUBES-PBO/blob/main/UML%20Class%20Diagram.png?raw=true)
 
 # Kontributor Pengembangan Aplikasi :
 - Dimas Faturrohim	121140224
