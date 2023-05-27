@@ -4,7 +4,7 @@ Perang Bintang
 
 # Deskripsi Proyek :
 Game ini merupakan permainan peperangan luar angkasa yang dimainkan dengan cara melawan berbagai musuh berbahaya.
-Didalam game ini terdapat player yang akan bermain sebagai pesawat luar angkasa yang mempunyai senjata berupa alat-alat yang dapat digunakan untuk mengalahkan para musuh.Pada game ini juga terdapat item Buff yang dapat meningkatkan kemampuan saat penyerangan pesawat.
+Di dalam game ini terdapat player yang akan bermain sebagai pesawat luar angkasa yang mempunyai senjata berupa alat-alat yang dapat digunakan untuk mengalahkan para musuh. Pada game ini juga terdapat item Buff yang dapat meningkatkan kemampuan saat penyerangan pesawat.
 
 
 # Cara menjalankan aplikasi (cara bermain) :
