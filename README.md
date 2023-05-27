@@ -21,7 +21,7 @@ Pygame
 
 
 # UML Class diagram proyek :
-![alt text](https://github.com/MDaffaAM/TUBES-PBO/blob/main/UML%20Class%20Diagram.png?raw=true)
+![alt text](https://github.com/MDaffaAM/TUBES-PBO/blob/main/UML%20Class%20Diagram.png)
 
 # Kontributor Pengembangan Aplikasi :
 - Dimas Faturrohim	121140224
