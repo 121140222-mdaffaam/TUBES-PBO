@@ -17,8 +17,8 @@ Di dalam game ini terdapat player yang akan bermain sebagai pesawat luar angkasa
 
 
 # Dependensi paket (library) yang dibutuhkan untuk menjalankan aplikasi :
-Pygame
-Random
+1. Pygame
+2. Random
 
 # UML Class diagram proyek :
 ![alt text](https://github.com/MDaffaAM/TUBES-PBO/blob/main/UML%20Class%20Diagram.png)
